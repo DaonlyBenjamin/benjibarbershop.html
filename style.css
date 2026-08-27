@@ -1,0 +1,546 @@
+
+@media (max-width: 600px) {
+
+    h1 {
+        font-size: 45px;
+    }
+
+    .community {
+        padding: 50px 15px;
+    }
+
+    .community-card {
+        padding: 25px 20px;
+    }
+
+    .community-card h2 {
+        font-size: 36px;
+    }
+
+    .community-card h3 {
+        font-size: 26px;
+    }
+
+    .community-card p {
+        font-size: 18px;
+    }
+
+    .community-intro {
+        font-size: 20px !important;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.navbar-item:hover {
+    background-color: #4b4a4a;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+}
+.navbar-item a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 30px;
+    font-weight: bold;
+    display: block;
+    font-family: 'Clash Display', sans-serif;
+    padding: 5px 15px;
+    
+}
+
+.nav_container {
+  position: sticky;       
+  top: 0;                
+  z-index: 1000;         
+  width: 100%;           
+  
+
+}
+
+.navbar {
+    
+    position: relative;
+    padding: 10px 20px;
+    background-color: #888585;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    
+    
+   
+}
+
+
+.dropdown-btn {
+    cursor: pointer;
+    display: block;
+    background: none;
+    border: none;
+    padding: 0;
+    text-decoration: none;
+  
+}
+
+h1 {
+    text-align: center;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.navbar-heading {
+    color: #000000;
+    transition: color 0.3s ease;
+    font-size: 60px;
+    
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    color: #000000;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-decoration: underline;
+    font-size: 2cap;
+}
+
+.gallery_container {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 70px;
+}
+
+.services {
+   
+    display: grid;
+    
+    font-size: 50px;
+    font-weight: bold;
+    color: #2e2d2d;
+   
+    font-family: 'Clash Display', sans-serif;
+    
+}
+
+.services-list{
+    list-style-type: none;
+    font-size: 40px;
+    font-weight: bold;
+    color: #ff0000;
+}
+
+.operation-hours{
+    text-align: center;
+    font-size: 25px;
+    color: #000000;
+    font-family: 'Clash Display', sans-serif;
+    padding-top: 80px;
+    
+}
+
+.closed {
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+}
+
+.services-item{
+    margin-bottom: 20px;
+    
+    
+}
+
+
+
+.services-item:hover {
+    color: #817979;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'Clash Display', sans-serif;
+    font-size: 40px;
+}
+
+.services-heading{
+    display:flex;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: #220e0e;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'Clash Display', sans-serif;
+    padding-top: 100px;
+
+}
+
+.footer {
+    background-color: #888585;
+    color: #000000;
+    text-align: center;
+    bottom: 0;              
+    z-index: 1000;
+    padding: 5px;
+    font-size: 10px; 
+    margin-top: 100px;
+    
+}
+
+.services-image {
+    display:flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    color: #000000;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.pricelist {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'Clash Display', sans-serif;
+}
+
+
+.operating-hours1 {
+    padding-bottom: 20px;
+    
+    
+}
+
+.operating-hours2 {
+    padding-bottom: 20px;
+}
+
+.operating-hours3 {
+   padding-bottom: 20px;
+}
+
+#nav ul {
+    display: none;
+}
+
+#nav.show ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-items: center;
+    margin: 0;
+    padding: 10px 0;
+    background-color: #888585;
+    z-index: 1001;
+}
+
+#nav.show .navbar-item {
+    display: block;
+}
+
+.navbar-item {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.rights {
+    color: #020202;
+    
+    
+    
+}
+
+.artical {
+    font-size: 40px;
+    display: grid;
+    justify-content: center;
+    padding-top: 80px;
+
+}
+
+.paragraph1 {
+    font-size: 20px;
+    justify-content: center;
+    display: grid;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+.community {
+    
+    width: 100%;
+    box-sizing: border-box;
+    padding: 80px 20px;
+}
+
+
+
+.community-card {
+    width: 100%;
+    
+    box-sizing: border-box;
+    background-color: #858f8c;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+    padding: 40px;
+    text-align: center;
+    justify-content: center;
+    display: grid;
+}
+
+.community-card h2 {
+    font-size: 50px;
+    margin-bottom: 25px;
+    font-family: 'Clash Display', sans-serif;
+}
+
+.community-card h3 {
+    font-size: 32px;
+    margin-top: 40px;
+}
+
+.community-card p {
+    font-size: 20px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.community-intro {
+    font-size: 24px !important;
+}
+
+.donate-button {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 15px 40px;
+
+    background-color: #000000;
+    color: #ffffff;
+
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.donate-button:hover {
+    background-color: #4b4a4a;
+    transform: scale(1.05);
+}
+
+.community-thanks {
+    margin-top: 30px;
+    font-style: italic;
+    color: black ;
+}
+
+.ourgoal {
+    color: #ff0000;
+    font-size: 25px;
+}
+
+.alsohelp {
+    font-size:large;
+    color: #ff0000;
+}
+
+.bottombenjislogan {
+    color: #ff0000;
+    font-family: 'Clash Display', sans-serif;
+
+}
+
+.sloganbottom {
+    color: #000000;
+
+}
+
+.whatsapp-button {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+
+    width: 65px;
+    height: 65px;
+
+    z-index: 9999;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+
+    background-color: #25D366;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+
+    transition: transform 0.3s ease;
+}
+
+.whatsapp-button img {
+    width: 40px;
+    height: 40px;
+}
+
+.whatsapp-button:hover {
+    transform: scale(1.1);
+}
+
+.merch_container {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+    
+
+}
+
+.tshirt4sale {
+    
+    margin-top: 50px;
+    font-size: 10px; 
+
+}
+
+.logo1 {
+   margin-top: 50px; 
+}
+
+h3 {
+    text-align: center;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: black;
+}
+    
+ .back {
+    z-index: 9999;
+    transition: transform 0.3s ease;
+    font-weight: 400;
+    display: inline-block;
+    margin-top: 25px;
+    padding: 15px 40px;
+
+    background-color: #000000;
+    color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    
+    
+    
+    border-radius: 8px;
+    transition: 0.3s;
+    margin-bottom: 20px;
+    margin-left: 30px;
+ }
+ 
+    
+
+
+
+
+
+
+
+
+
+ */store*/
+
+ .store-section {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.merch-heading {
+    font-size: 50px;
+    font-family: 'Clash Display', sans-serif;
+    margin-bottom: 50px;
+}
+
+.merch-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.merch-item {
+    width: 280px;
+    padding: 25px;
+    background-color: #858f8c;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.merch-image {
+    width: 200px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.merch-item h3 {
+    font-size: 24px;
+    margin: 20px 0 10px;
+}
+
+.price {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.size-select {
+    display: block;
+    margin: 10px auto 20px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.buy-button {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.buy-button:hover {
+    background-color: #4b4a4a;
+    transform: scale(1.05);
+}
+
+
+.merch-heading {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
